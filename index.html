@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Computer & Phone Repair Shop</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Magnan Shop</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html"
+                ><i class="fas fa-home"></i> Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html"
+                ><i class="fas fa-info-circle"></i> About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html"
+                ><i class="fas fa-envelope"></i> Contact</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="computers.html"
+                ><i class="fas fa-laptop"></i> Computers</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="phones.html"
+                ><i class="fas fa-mobile-alt"></i> Phones</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="accessories.html"
+                ><i class="fas fa-headphones"></i> Accessories</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cart.html"
+                ><i class="fas fa-shopping-cart"></i> Cart</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-light text-dark p-5 text-center">
+      <h1>Welcome to Our Computer & Phone Repair Shop</h1>
+      <p>
+        We offer the best repair services and top-quality refurbished devices.
+      </p>
+      <a href="#shop" class="btn btn-primary">Shop Now</a>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="p-5 text-center bg-dark text-light">
+      <h2>Our Services</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <i class="bi bi-phone" style="font-size: 3rem"></i>
+            <h3>Phone Repair</h3>
+            <p>Fixing broken screens, battery replacements, and more.</p>
+          </div>
+          <div class="col-md-4">
+            <i class="bi bi-laptop" style="font-size: 3rem"></i>
+            <h3>Computer Repair</h3>
+            <p>Hardware and software fixes for PCs and Macs.</p>
+          </div>
+          <div class="col-md-4">
+            <i class="bi bi-tools" style="font-size: 3rem"></i>
+            <h3>Accessories</h3>
+            <p>High-quality accessories for phones and computers.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section id="featured" class="p-5">
+      <div class="container">
+        <h2 class="text-center">Featured Products</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="./css/img/laptop.avif"
+                class="card-img-top"
+                alt="Featured Laptop"
+              />
+              <div class="card-body">
+                <h5 class="card-title">HP Laptop</h5>
+                <p class="card-text">$599.99</p>
+                <a href="computers.html" class="btn btn-primary"
+                  >View Details</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="./css/img/phone.jpg"
+                class="card-img-top"
+                alt="Featured Phone"
+              />
+              <div class="card-body">
+                <h5 class="card-title">iPhone 13</h5>
+                <p class="card-text">$799.99</p>
+                <a href="phones.html" class="btn btn-primary">View Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="./css/img/accessories.webp"
+                class="card-img-top"
+                alt="Featured Accessory"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Wireless Charger</h5>
+                <p class="card-text">$29.99</p>
+                <a href="accessories.html" class="btn btn-primary"
+                  >View Details</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--footer-->
+    <footer class="bg-dark text-light p-4 text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mb-3 mb-md-0">
+            <p>&copy; 2024 Tech Repair & Shop. All Rights Reserved.</p>
+          </div>
+          <div class="col-md-6">
+            <a href="#" class="text-light me-3">Facebook</a>
+            <a href="#" class="text-light me-3">Instagram</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

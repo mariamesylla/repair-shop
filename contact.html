@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Computer & Phone Repair Shop</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Magnan Shop</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html"
+                ><i class="fas fa-home"></i> Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html"
+                ><i class="fas fa-info-circle"></i> About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html"
+                ><i class="fas fa-envelope"></i> Contact</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="computers.html"
+                ><i class="fas fa-laptop"></i> Computers</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="phones.html"
+                ><i class="fas fa-mobile-alt"></i> Phones</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="accessories.html"
+                ><i class="fas fa-headphones"></i> Accessories</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cart.html"
+                ><i class="fas fa-shopping-cart"></i> Cart</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="featured" class="p-5">
+      <aside>
+        <div class="container">
+          <h2 class="text-center">Contact Us</h2>
+          <p class="text-center">
+            Have a question or need assistance? We'd love to hear from you.
+            Reach out using the form below or contact us directly.
+          </p>
+
+          <!-- Contact Information -->
+          <div class="row">
+            <div class="col-md-6">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d774392.3732249368!2d-74.63907698338801!3d40.69665377709715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1725919294792!5m2!1sen!2sus"
+                width="450"
+                height="350"
+                style="border: none"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+
+            <div class="col-md-6">
+              <!-- Comments Form -->
+              <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="name" required />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="3"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
+          <div class="infos">
+            <h5>Contact Information</h5>
+            <p><strong>Email:</strong> magnans@techrepairshop.com</p>
+            <p><strong>Phone:</strong> +1 347 456 7890</p>
+            <p><strong>Address:</strong> New York, New York -- United States</p>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- Services Section -->
+    <section id="featured" class="p-5">
+      <div class="container">
+        <h2 class="text-center">Featured Products</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="./css/img/laptop.avif"
+                class="card-img-top"
+                alt="Featured Laptop"
+              />
+              <div class="card-body">
+                <h5 class="card-title">HP Laptop</h5>
+                <p class="card-text">$599.99</p>
+                <a href="computers.html" class="btn btn-primary"
+                  >View Details</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="./css/img/phone.jpg"
+                class="card-img-top"
+                alt="Featured Phone"
+              />
+              <div class="card-body">
+                <h5 class="card-title">iPhone 13</h5>
+                <p class="card-text">$799.99</p>
+                <a href="phones.html" class="btn btn-primary">View Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="./css/img/accessories.webp"
+                class="card-img-top"
+                alt="Featured Accessory"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Wireless Charger</h5>
+                <p class="card-text">$29.99</p>
+                <a href="accessories.html" class="btn btn-primary"
+                  >View Details</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--footer-->
+    <footer class="bg-dark text-light p-4 text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mb-3 mb-md-0">
+            <p>&copy; 2024 Tech Repair & Shop. All Rights Reserved.</p>
+          </div>
+          <div class="col-md-6">
+            <a href="#" class="text-light me-3">Facebook</a>
+            <a href="#" class="text-light me-3">Instagram</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
